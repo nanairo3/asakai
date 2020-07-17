@@ -1,4 +1,4 @@
-require 'rspec'
+
 
 RSpec.describe 'test' do
   it 'test with "2 5\n1 WA\n1 AC\n2 WA\n2 AC\n2 WA\n"' do

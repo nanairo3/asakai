@@ -1,4 +1,4 @@
-require 'rspec'
+
 
 RSpec.describe 'test' do
   it 'test with "3 3\n...\n...\n...\n"' do
