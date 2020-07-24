@@ -23,3 +23,8 @@
 
 # array = readlines.map(&:chomp!).map { |e| e.split.map(&:to_i) }
 # n = gets.split.map(&:to_i)
+
+a, b = gets.split.map(&:to_i)
+a_str = a.to_s * b
+b_str = b.to_s * a
+puts [a_str, b_str].sort[0]

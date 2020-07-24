@@ -26,3 +26,12 @@
 
 # array = readlines.map(&:chomp!).map { |e| e.split.map(&:to_i) }
 # n = gets.split.map(&:to_i)
+
+arr = gets.split
+n = arr[0].to_i
+m = arr[1].to_i
+if (n == m)
+    puts "Yes"
+else
+    puts "No"
+end

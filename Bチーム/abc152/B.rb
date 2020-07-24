@@ -23,3 +23,19 @@
 
 # array = readlines.map(&:chomp!).map { |e| e.split.map(&:to_i) }
 # n = gets.split.map(&:to_i)
+num = gets.split
+n = num[0].to_i
+m = num[1].to_i
+
+arr = []
+if (n >= m)
+    n.times do |i|
+        arr.push(m)
+    end
+else
+    m.times do |i|
+        arr.push(n)
+    end
+end
+
+puts arr.join
